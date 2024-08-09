@@ -1,0 +1,49 @@
+1. justify-content:
+
+Purpose: This property aligns the flex items along the main axis (horizontal or vertical, depending on flex-direction) within the flex container.
+Common Values:
+flex-start: Items are packed toward the start of the flex container.
+flex-end: Items are packed toward the end of the flex container.
+center: Items are centered along the main axis.
+space-between: Items are evenly distributed, with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed with equal space around them.
+space-evenly: Items are evenly distributed with equal space between them.
+
+2. Align-items:
+
+Purpose: This property aligns the flex items along the cross axis (perpendicular to the main axis) within the flex container.
+Common Values:
+stretch: Items stretch to fill the container (default).
+flex-start: Items are aligned toward the start of the cross axis.
+flex-end: Items are aligned toward the end of the cross axis.
+center: Items are centered along the cross axis.
+baseline: Items are aligned based on their text baseline.
+
+3. Align-content:
+
+Purpose: This property aligns flex lines within the flex container when there is extra space on the cross axis. It only affects multi-line flex containers (when flex-wrap is set to wrap).
+Common Values:
+stretch: Flex lines stretch to fill the container (default).
+flex-start: Flex lines are packed toward the start of the container.
+flex-end: Flex lines are packed toward the end of the container.
+center: Flex lines are centered along the cross axis.
+space-between: Flex lines are evenly distributed with no space at the start or end.
+space-around: Flex lines are evenly distributed with space around them.
+space-evenly: Flex lines are evenly distributed with equal space between them.
+
+4. Flex-direction:
+
+Purpose: This property defines the direction of the main axis, determining how the flex items are placed within the container.
+Common Values:
+row: Items are placed in a row, left to right (default).
+row-reverse: Items are placed in a row, right to left.
+column: Items are placed in a column, top to bottom.
+column-reverse: Items are placed in a column, bottom to top.
+
+5. Flex-wrap:
+
+Purpose: This property controls whether the flex items are forced onto a single line or can wrap onto multiple lines if there is not enough space in the container.
+Common Values:
+nowrap: All flex items will be on a single line (default).
+wrap: Flex items will wrap onto multiple lines from top to bottom.
+wrap-reverse: Flex items will wrap onto multiple lines from bottom to top.
